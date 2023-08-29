@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color:#121921;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  .team-member {
+    margin-bottom: 1rem;
+  }
+
+  .parentAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footOne{
+    background-color: #232f3f;
+    height: 3rem;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .footTwo{
+    background-color: #2f4158;
+    height: 15rem;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .footeranchor a:hover{
+    text-decoration: underline !important;
+  }
+
+  a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+  

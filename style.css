@@ -1,0 +1,272 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+#search {
+    width: 90%;
+    height: 40px;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    float: left;
+
+}
+
+#search:focus{
+    border: 5px rgb(250, 204, 19) solid;
+}
+
+#btnsearch {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: white;
+    float: left;
+    width: 8%;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(240, 180, 68);
+    
+
+}
+
+.parent{
+    color:white;
+    background-color:#121921;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
+
+.parent2{
+  color:white;
+  background-color:#121921;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#anchor{
+    color: white;
+    text-decoration: none;
+}
+
+  #slider {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-item {
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .innerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    justify-content: space-evenly;
+    background-color: white;
+    cursor: pointer;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    border: none !important;
+    box-sizing: border-box;
+    border-radius: 0% !important;
+  }
+
+  .innerCard2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    justify-content: space-evenly;
+    background-color: white;
+    cursor: pointer;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    border: none !important;
+    box-sizing: border-box;
+    border-radius: 0% !important;
+  }
+    
+    
+    .innerCard:hover {
+      transform: scale(1.1);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.329);
+      padding: 10px;
+      transition: transform 0.5s ease-in-out;
+
+  
+  }
+
+
+  .paddingcards{
+    padding-top: 25rem;
+  }
+  .image {
+    width: 100px;
+    height: 200px;
+}
+
+
+#labelname{
+  display: none;
+}
+
+#labelemail{
+  display: none;
+}
+
+#labelsubject{
+  display: none;
+}
+
+#labelmsg{
+  display: none;
+}
+
+
+
+
+
+.btns{
+  padding: .2rem;
+  color:white !important;
+}
+
+.parentNav2{
+  background-color: #232f3f;
+  height: 9rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.catego{
+  width: 20rem;
+}
+
+
+.parentNav2 span:hover{
+  border: 2px solid white;
+  cursor: pointer;
+
+
+}
+
+.footOne{
+  background-color: #232f3f;
+  height: 3rem;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.footTwo{
+  background-color: #2f4158;
+  height: 15rem;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.footeranchor a:hover{
+  text-decoration: underline !important;
+}
+
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  height: 80vh;
+}
+
+#logo {
+  width: 10%;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  justify-content: space-evenly;
+  border: 1px solid rgb(206, 202, 202);
+  height: 70%;
+  width: 20%;
+  margin-top: 2rem;
+  gap: 1rem;
+  border-radius: 5px;
+  padding: 2rem;
+
+
+}
+
+.labelform {
+  width: 100%;
+}
+
+#btn {
+  width: 100%;
+  border: 1px solid rgb(106, 102, 102);
+  height: 1.7rem;
+
+}
+
+#rules {
+  font-size: .8rem;
+}
+
+#footersignin {
+  background: rgb(246, 243, 243);
+  width: 100%;
+  height: 20vh;
+  box-shadow: 5px 5px 5px 5px rgb(214, 214, 214, 20%) inset;
+  text-align: center;
+  font-size: .8rem;
+  padding-top: 1rem;
+  color: rgb(139, 139, 139);
+
+}
+
+#signtitle {
+  font-weight: lighter;
+
+}
+
+.invalid{
+  color: red;
+}
+
+.none{
+  display:none;
+}
+
+#msgresponse{
+  display:none;
+}
+
+
+
+

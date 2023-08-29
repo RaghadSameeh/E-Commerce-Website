@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+    integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+    <nav>
+        <div class="row parent align-items-center">
+          <div class="col-6 col-md-2">
+            <a href="index.html"><img src="./images/logo.JPG" id="photo" /> </a>
+          </div>     
+      </nav>
+    
+ 
+<section class="container">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <form id="contact-form" name="contact-form" action="" onsubmit="checksubmit(event)">
+        <div class="row">
+            <div class="col-md-12 m-2">
+                <label for="name" class="m-1" id="labelname">Your name</label>
+                <input type="text" id="name" name="name" class="form-control m-1" placeholder="Your name" oninput="checkname(this)" required>
+                <div class="invalid m-1 none" id="invalidname">Your name isn't valid.. please enter a characters at least 3 characters</div>
+            </div>
+
+            <div class="col-md-12 m-2">
+                <label for="email" class="m-1" id="labelemail">Your Email</label>
+                <input type="text" id="email" name="email" class="form-control m-1"  placeholder="Your email" required  oninput="checkemail(this)">
+                <div class="invalid m-1 none" id="invalidemail">Your email isn't valid.. example124@gmail/outlook/yahoo.com</div>
+
+            </div>
+
+            <div class="col-md-12 m-2">
+                <label for="subject" class="m-1" id="labelsubject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control m-1"  placeholder="Subject" required>
+            </div>
+
+            <div class="col-md-12 m-2">
+                <label for="text" class="m-1" id="labelmsg">Your message</label>
+                <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea m-1"  placeholder="Your message" required></textarea>
+            </div>
+            <div class="m-2">
+
+            <button type="submit" class="btn btn-primary mb-3" >Send</button>
+            <div style="color: rgb(143, 62, 5); font-size: larger; font-weight: bolder;" id="msgresponse">Your message has been sent ,Thank You for Contacting Us!</div>
+            </div>
+        </div>
+
+
+        
+    </form>
+
+
+</section>
+
+<footer>
+  <div class=" footOne">
+  <div class="container-fluid footer">
+    <a class="navbar-brand" href="#" style="color:white">Back to top</a>
+  </div>
+  </div>
+
+  <div class=" row footTwo">
+    <div class="col-6 col-md-2 footeranchor">
+      <a id="anchor" href="index.html" style="font-weight: bold;">Get to Know Us</a><br>
+      <a id="anchor" href="index.html">About Amazon</a><br>
+      <a id="anchor" href="index.html">Careers</a><br>
+      <a id="anchor" href="index.html">Amazon Science</a><br>
+     
+    </div>
+
+    <div class="col-6 col-md-2 footeranchor">
+      <a id="anchor" href="index.html" style="font-weight: bold;">Shop with Us</a><br>
+      <a id="anchor" href="index.html">Your Account</a><br>
+      <a id="anchor" href="index.html">Your Orders</a><br>
+      <a id="anchor" href="index.html">Your Addresses</a><br>
+      <a id="anchor" href="index.html">Your Lists</a><br>
+     
+    </div>
+
+    
+      <div class="col-6 col-md-2 footeranchor">
+        <a id="anchor" href="index.html" style="font-weight: bold;">Get to Know Us</a><br>
+        <a id="anchor" href="index.html">About Amazon</a><br>
+        <a id="anchor" href="index.html">Careers</a><br>
+        <a id="anchor" href="index.html">Amazon Science</a><br>
+       
+      </div>
+
+    <div class="col-6 col-md-2 footeranchor">
+      <a id="anchor" href="index.html" style="font-weight: bold;">Shop with Us</a><br>
+      <a id="anchor" href="index.html">Your Account</a><br>
+      <a id="anchor" href="index.html">Your Orders</a><br>
+      <a id="anchor" href="index.html">Your Addresses</a><br>
+      <a id="anchor" href="index.html">Your Lists</a><br>
+     
+    </div>
+  </div>
+</footer>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+
+<script src="./scriptContact.js"></script>
+    
+</body>
+</html>

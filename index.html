@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/42bb14b100.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+      integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Your Souq is now Amazon.eg | Welcome to Amazon.eg in Egypt. Online Shopping for Electronics, Apparel, Beauty and Grooming, Grocery and more</title>
+    <link rel = "apple-touch-icon" sizes = "180x180" href = "images/Amazon_icon.svg.png">
+    <link rel = "icon" type = "image/png" sizes = "32x32" href = "images/Amazon_icon.svg.png">
+    <link rel = "icon" type = "image/png" sizes = "16x16" href = "images/Amazon_icon.svg.png">
+    <link rel = "mask-icon" href = "images/Amazon_icon.svg.png">
+    <link rel = "shortcut icon" href = "images/Amazon_icon.svg.png">
+      </head>
+  <body onload="slideShow() , getProducts()">
+    <nav>
+    <div class="row parent align-items-center">
+      <div class="col-6 col-md-2">
+        <a href="index.html"><img src="./images/logo.JPG" id="photo" /> </a>
+      </div>
+
+      <div class="col-6 col-md-1">
+        <div>Deliver to</div>
+        <div id="city">Egypt</div>
+      </div>
+      <div class="col-12 col-md-4 nonborder">
+        <input id="search" type="search" placeholder="Search Amazon.eg" name="search" oninput="search()"/>
+        <button type="submit" id="btnsearch" for="search">
+          <i class="fa-solid fa-magnifying-glass buttontext"></i>
+        </button>
+      </div>
+      <div class="col-12 col-md-1">
+        <a id="anchor" href="./about.html " target="_blank">about</a>
+      </div>
+      <div class="col-12 col-md-1">
+        <a id="anchor" href="./contactus.html ">Contact us</a>
+      </div>
+      <div class="col-12 col-md-2 " id="nameUser">
+        <a id="anchor" class="signout px-5" href="./signIn.html " onclick="UserName()">sign in</a>
+      </div>
+      <div class="col-12 col-md-1" id="appendCard"><a href="./cart.html" class="bs-light-bg-subtle" style="color: white;">
+        <i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+  </nav>
+
+  <nav class="parentNav2 container-fluid" id="navTwo">
+      
+  </nav>
+
+    <main class="row">
+    <div class=" col-12">
+      <div  id="slider">
+        <div id="img" class="slider-item" style="background-image: url('./images/SlideShow/1.jpg');">
+          <section class="row paddingcards justify-content-center" id="card" ></section>
+          
+  <footer>
+    <div class=" footOne">
+    <div class="container-fluid footer">
+      <a class="navbar-brand" href="#" style="color:white">Back to top</a>
+    </div>
+    </div>
+
+    <div class=" row footTwo">
+      <div class="col-6 col-md-2 footeranchor">
+        <a id="anchor" href="index.html" style="font-weight: bold;">Get to Know Us</a><br>
+        <a id="anchor" href="index.html">About Amazon</a><br>
+        <a id="anchor" href="index.html">Careers</a><br>
+        <a id="anchor" href="index.html">Amazon Science</a><br>
+       
+      </div>
+
+      <div class="col-6 col-md-2 footeranchor">
+        <a id="anchor" href="index.html" style="font-weight: bold;">Shop with Us</a><br>
+        <a id="anchor" href="index.html">Your Account</a><br>
+        <a id="anchor" href="index.html">Your Orders</a><br>
+        <a id="anchor" href="index.html">Your Addresses</a><br>
+        <a id="anchor" href="index.html">Your Lists</a><br>
+       
+      </div>
+
+      
+        <div class="col-6 col-md-2 footeranchor">
+          <a id="anchor" href="index.html" style="font-weight: bold;">Get to Know Us</a><br>
+          <a id="anchor" href="index.html">About Amazon</a><br>
+          <a id="anchor" href="index.html">Careers</a><br>
+          <a id="anchor" href="index.html">Amazon Science</a><br>
+         
+        </div>
+
+      <div class="col-6 col-md-2 footeranchor">
+        <a id="anchor" href="index.html" style="font-weight: bold;">Shop with Us</a><br>
+        <a id="anchor" href="index.html">Your Account</a><br>
+        <a id="anchor" href="index.html">Your Orders</a><br>
+        <a id="anchor" href="index.html">Your Addresses</a><br>
+        <a id="anchor" href="index.html">Your Lists</a><br>
+       
+      </div>
+    
+      
+      
+      
+      
+
+    </div>
+  </footer>
+          </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+  
+  
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+      integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
