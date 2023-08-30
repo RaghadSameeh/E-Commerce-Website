@@ -61,7 +61,7 @@ function displayProducts(product) {
   cardParent.setAttribute("id", "allItems");
   cardParent.setAttribute(
     "class",
-    "col-12 col-md-3 col-lg-2 innerCard card m-1 border-0 shadow mb-5"
+    "col-10 col-md-3 col-lg-2 innerCard card m-1 border-0 shadow mb-5"
   );
   cardParent.innerHTML = `<img onclick="onlyProduct('${product.id}')" src=${imageProduct} class="card-img-top image p-2" style="height: 18rem !important"><div class="card-title">${titleProduct}</div><div class="card-text">${discProduct}</div><div class="card-subtitle mb-2 text-body-secondary">${priceProduct} $</div><div class="d-flex justify-content-between"><button id ="buy"class="btns btn btn-warning" onclick="addCart('${idProduct}')">Buy</button><button class="bg-success link-light p-2 rounded btns"><i class="fa-solid fa-star"></i>${countProduct}</button></div>`;
   onlyCard.appendChild(cardParent);

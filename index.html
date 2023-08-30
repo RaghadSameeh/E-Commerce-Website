@@ -23,16 +23,14 @@
     <link rel = "shortcut icon" href = "images/Amazon_icon.svg.png">
       </head>
   <body onload="slideShow() , getProducts()">
+    <div class="container-fluid">
     <nav>
     <div class="row parent align-items-center">
       <div class="col-6 col-md-2">
         <a href="index.html"><img src="./images/logo.JPG" id="photo" /> </a>
       </div>
 
-      <div class="col-6 col-md-1">
-        <div>Deliver to</div>
-        <div id="city">Egypt</div>
-      </div>
+     
       <div class="col-12 col-md-4 nonborder">
         <input id="search" type="search" placeholder="Search Amazon.eg" name="search" oninput="search()"/>
         <button type="submit" id="btnsearch" for="search">
@@ -45,8 +43,8 @@
       <div class="col-12 col-md-1">
         <a id="anchor" href="./contactus.html ">Contact us</a>
       </div>
-      <div class="col-12 col-md-2 " id="nameUser">
-        <a id="anchor" class="signout px-5" href="./signIn.html " onclick="UserName()">sign in</a>
+      <div class="col-12 col-md-1 " id="nameUser">
+        <a id="anchor" class="signout px-5-lg" href="./signIn.html " onclick="UserName()">sign in</a>
       </div>
       <div class="col-12 col-md-1" id="appendCard"><a href="./cart.html" class="bs-light-bg-subtle" style="color: white;">
         <i class="fa-solid fa-cart-shopping cart"></i></a>
@@ -54,25 +52,25 @@
     </div>
     <div style="clear: both;"></div>
   </nav>
+    </div>
 
   <nav class="parentNav2 container-fluid" id="navTwo">
       
   </nav>
-
+<div class="container-fluid">
     <main class="row">
     <div class=" col-12">
       <div  id="slider">
-        <div id="img" class="slider-item" style="background-image: url('./images/SlideShow/1.jpg');">
+        <div id="img" class="slider-item row" style="background-image: url('./images/SlideShow/1.jpg');">
           <section class="row paddingcards justify-content-center" id="card" ></section>
           
-  <footer>
-    <div class=" footOne">
-    <div class="container-fluid footer">
+    <div class="footOne">
+    <div class="footer">
       <a class="navbar-brand" href="#" style="color:white">Back to top</a>
     </div>
     </div>
 
-    <div class=" row footTwo">
+    <div class="footTwo">
       <div class="col-6 col-md-2 footeranchor">
         <a id="anchor" href="index.html" style="font-weight: bold;">Get to Know Us</a><br>
         <a id="anchor" href="index.html">About Amazon</a><br>
@@ -114,11 +112,11 @@
       
 
     </div>
-  </footer>
           </div>
       </div>
     </div>
   </main>
+</div>
 
 
 

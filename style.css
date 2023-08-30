@@ -3,7 +3,7 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 
@@ -104,13 +104,16 @@ a{
     
     
     .innerCard:hover {
-      transform: scale(1.1);
+/*       transform: scale(1.05);
+ */      
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.329);
       padding: 10px;
       transition: transform 0.5s ease-in-out;
 
   
   }
+
+
 
 
   .paddingcards{
